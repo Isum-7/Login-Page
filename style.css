@@ -1,0 +1,38 @@
+* {
+    background: linear-gradient(to right, #eecc66, #f3a18f);
+    font-family: "Sageo UI ", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    margin: 150px auto;
+}
+
+input {
+    box-sizing: border-box;
+    width: 200px;
+    font-size: 10 px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: solid 2px white;
+    padding: 10 px;
+    color: white;
+}
+
+::placeholder {
+    color: red;
+}
+
+span {
+    position: absolute;
+    right: 15px;
+    transform: translate(0, -50%);
+    top: 50px;
+    cursor: pointer;
+}
+
+.fa {
+    font-size: 20px;
+    color: white;
+}
